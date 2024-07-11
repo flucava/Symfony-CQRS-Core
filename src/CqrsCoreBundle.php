@@ -2,8 +2,8 @@
 
 namespace Flucava\CqrsCoreBundle;
 
-use Flucava\Core\Attribute\CommandHandler;
-use Flucava\Core\Attribute\QueryHandler;
+use Flucava\CqrsCore\Attribute\CommandHandler;
+use Flucava\CqrsCore\Attribute\QueryHandler;
 use Flucava\CqrsCoreBundle\DependencyInjection\Compiler\CommandHandlerPass;
 use Flucava\CqrsCoreBundle\DependencyInjection\Compiler\QueryHandlerPass;
 use Symfony\Component\DependencyInjection\ChildDefinition;
