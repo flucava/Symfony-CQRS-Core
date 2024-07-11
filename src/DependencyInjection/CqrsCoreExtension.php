@@ -2,8 +2,8 @@
 
 namespace Flucava\CqrsCoreBundle\DependencyInjection;
 
-use Flucava\Core\Command\CommandBus;
 use Flucava\Core\Query\QueryBus;
+use Flucava\CqrsCore\Command\CommandBus;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 

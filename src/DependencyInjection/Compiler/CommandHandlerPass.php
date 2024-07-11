@@ -2,7 +2,7 @@
 
 namespace Flucava\CqrsCoreBundle\DependencyInjection\Compiler;
 
-use Flucava\Core\Command\CommandBus;
+use Flucava\CqrsCore\Command\CommandBus;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\Compiler\ServiceLocatorTagPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
